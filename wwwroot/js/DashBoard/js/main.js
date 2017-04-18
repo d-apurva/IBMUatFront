@@ -1,4 +1,4 @@
-/* Copyright © 2012 RGen Solutions . All Rights Reserved.
+/* Copyright Â© 2012 RGen Solutions . All Rights Reserved.
    Contact : support@rgensolutions.com 
 */
 
@@ -64,17 +64,17 @@ var Main = {
         /////////////////////////////////////////////////////////////////////////////////////////////
         //Code to check whether the current browser is IE8 and above and if not then show the popup
         //Added by Mangesh
-        if ($.browser != undefined) {
-            var version = parseInt($.browser.version);
-            if (!($.browser.msie)) {
+        //if ($.browser != undefined) {
+        //    var version = parseInt($.browser.version);
+        //    if (!($.browser.msie)) {
                 //Main.popupExit("Please open the UAT App in Internet Explorer Version 8 and above!");
-                window.location.replace("no-compatability.aspx")
-            }
-            else if (version < 8) {
+         //       window.location.replace("no-compatability.aspx")
+         //   }
+        //    else if (version < 8) {
                 //Main.popupExit("Please open the UAT App in Internet Explorer Version 8 and above!");
-                window.location.replace("no-compatability.aspx")
-            }
-        }
+         //       window.location.replace("no-compatability.aspx")
+         //   }
+       // }
 
         //////////////////////////////////////////////////////////////////////////////////////
 
