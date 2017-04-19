@@ -1,7 +1,7 @@
 FROM microsoft/dotnet:1.0.0-preview2-sdk
 
 # Set the Working Directory
-WORKDIR /app
+#WORKDIR /app
 
 # Configure the listening port to 80
 ENV ASPNETCORE_URLS http://*:80
